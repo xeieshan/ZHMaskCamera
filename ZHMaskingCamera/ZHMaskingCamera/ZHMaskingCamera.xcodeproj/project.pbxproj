@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9537499D1FD50D660009397F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9537499C1FD50D660009397F /* AppDelegate.swift */; };
+		9537499F1FD50D660009397F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9537499E1FD50D660009397F /* ViewController.swift */; };
+		953749A21FD50D660009397F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953749A01FD50D660009397F /* Main.storyboard */; };
+		953749A41FD50D660009397F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 953749A31FD50D660009397F /* Assets.xcassets */; };
+		953749A71FD50D660009397F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953749A51FD50D660009397F /* LaunchScreen.storyboard */; };
+		953749B41FD50D7E0009397F /* ZHCameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953749AF1FD50D7E0009397F /* ZHCameraManager.swift */; };
+		953749B51FD50D7E0009397F /* ZHCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953749B01FD50D7E0009397F /* ZHCameraViewController.swift */; };
+		953749B61FD50D7E0009397F /* ZHConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953749B11FD50D7E0009397F /* ZHConstants.swift */; };
+		953749B71FD50D7E0009397F /* ZHImagePreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953749B21FD50D7E0009397F /* ZHImagePreviewController.swift */; };
+		953749B81FD50D7E0009397F /* ZHUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953749B31FD50D7E0009397F /* ZHUtility.swift */; };
+		953749BA1FD50FE60009397F /* MaskingCamera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953749B91FD50FE50009397F /* MaskingCamera.storyboard */; };
+		953749BC1FD510330009397F /* Xbox360Mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 953749BB1FD510330009397F /* Xbox360Mask.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		953749991FD50D660009397F /* ZHMaskingCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHMaskingCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9537499C1FD50D660009397F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9537499E1FD50D660009397F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		953749A11FD50D660009397F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		953749A31FD50D660009397F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		953749A61FD50D660009397F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		953749A81FD50D660009397F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		953749AF1FD50D7E0009397F /* ZHCameraManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHCameraManager.swift; sourceTree = "<group>"; };
+		953749B01FD50D7E0009397F /* ZHCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHCameraViewController.swift; sourceTree = "<group>"; };
+		953749B11FD50D7E0009397F /* ZHConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHConstants.swift; sourceTree = "<group>"; };
+		953749B21FD50D7E0009397F /* ZHImagePreviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHImagePreviewController.swift; sourceTree = "<group>"; };
+		953749B31FD50D7E0009397F /* ZHUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHUtility.swift; sourceTree = "<group>"; };
+		953749B91FD50FE50009397F /* MaskingCamera.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MaskingCamera.storyboard; sourceTree = "<group>"; };
+		953749BB1FD510330009397F /* Xbox360Mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Xbox360Mask.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		953749961FD50D660009397F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		953749901FD50D660009397F = {
+			isa = PBXGroup;
+			children = (
+				9537499B1FD50D660009397F /* ZHMaskingCamera */,
+				9537499A1FD50D660009397F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9537499A1FD50D660009397F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				953749991FD50D660009397F /* ZHMaskingCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9537499B1FD50D660009397F /* ZHMaskingCamera */ = {
+			isa = PBXGroup;
+			children = (
+				953749AE1FD50D7E0009397F /* Camera masking */,
+				9537499C1FD50D660009397F /* AppDelegate.swift */,
+				9537499E1FD50D660009397F /* ViewController.swift */,
+				953749A01FD50D660009397F /* Main.storyboard */,
+				953749B91FD50FE50009397F /* MaskingCamera.storyboard */,
+				953749A31FD50D660009397F /* Assets.xcassets */,
+				953749BB1FD510330009397F /* Xbox360Mask.png */,
+				953749A51FD50D660009397F /* LaunchScreen.storyboard */,
+				953749A81FD50D660009397F /* Info.plist */,
+			);
+			path = ZHMaskingCamera;
+			sourceTree = "<group>";
+		};
+		953749AE1FD50D7E0009397F /* Camera masking */ = {
+			isa = PBXGroup;
+			children = (
+				953749AF1FD50D7E0009397F /* ZHCameraManager.swift */,
+				953749B01FD50D7E0009397F /* ZHCameraViewController.swift */,
+				953749B11FD50D7E0009397F /* ZHConstants.swift */,
+				953749B21FD50D7E0009397F /* ZHImagePreviewController.swift */,
+				953749B31FD50D7E0009397F /* ZHUtility.swift */,
+			);
+			path = "Camera masking";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		953749981FD50D660009397F /* ZHMaskingCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953749AB1FD50D660009397F /* Build configuration list for PBXNativeTarget "ZHMaskingCamera" */;
+			buildPhases = (
+				953749951FD50D660009397F /* Sources */,
+				953749961FD50D660009397F /* Frameworks */,
+				953749971FD50D660009397F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHMaskingCamera;
+			productName = ZHMaskingCamera;
+			productReference = 953749991FD50D660009397F /* ZHMaskingCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		953749911FD50D660009397F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Zeeshan Haider";
+				TargetAttributes = {
+					953749981FD50D660009397F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 953749941FD50D660009397F /* Build configuration list for PBXProject "ZHMaskingCamera" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 953749901FD50D660009397F;
+			productRefGroup = 9537499A1FD50D660009397F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				953749981FD50D660009397F /* ZHMaskingCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		953749971FD50D660009397F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953749A71FD50D660009397F /* LaunchScreen.storyboard in Resources */,
+				953749BA1FD50FE60009397F /* MaskingCamera.storyboard in Resources */,
+				953749A41FD50D660009397F /* Assets.xcassets in Resources */,
+				953749A21FD50D660009397F /* Main.storyboard in Resources */,
+				953749BC1FD510330009397F /* Xbox360Mask.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		953749951FD50D660009397F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953749B41FD50D7E0009397F /* ZHCameraManager.swift in Sources */,
+				953749B71FD50D7E0009397F /* ZHImagePreviewController.swift in Sources */,
+				953749B61FD50D7E0009397F /* ZHConstants.swift in Sources */,
+				9537499F1FD50D660009397F /* ViewController.swift in Sources */,
+				953749B51FD50D7E0009397F /* ZHCameraViewController.swift in Sources */,
+				9537499D1FD50D660009397F /* AppDelegate.swift in Sources */,
+				953749B81FD50D7E0009397F /* ZHUtility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		953749A01FD50D660009397F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				953749A11FD50D660009397F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		953749A51FD50D660009397F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				953749A61FD50D660009397F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		953749A91FD50D660009397F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		953749AA1FD50D660009397F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		953749AC1FD50D660009397F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ZHMaskingCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maskingcamera.app.ZHMaskingCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		953749AD1FD50D660009397F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ZHMaskingCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maskingcamera.app.ZHMaskingCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		953749941FD50D660009397F /* Build configuration list for PBXProject "ZHMaskingCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953749A91FD50D660009397F /* Debug */,
+				953749AA1FD50D660009397F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953749AB1FD50D660009397F /* Build configuration list for PBXNativeTarget "ZHMaskingCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953749AC1FD50D660009397F /* Debug */,
+				953749AD1FD50D660009397F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 953749911FD50D660009397F /* Project object */;
+}
