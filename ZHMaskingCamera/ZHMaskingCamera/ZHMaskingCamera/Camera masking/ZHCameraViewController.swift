@@ -38,7 +38,6 @@ import AVFoundation
         super.viewDidLoad()
         self.maskingImage = #imageLiteral(resourceName: "Xbox360Mask.png")
         setupView()
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {
