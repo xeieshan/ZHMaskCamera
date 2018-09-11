@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cwh-9K-zAR">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -45,7 +45,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I0p-Vc-KgJ">
-                                <rect key="frame" x="155" y="593" width="64" height="64"/>
+                                <rect key="frame" x="155.5" y="593" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="JrG-t1-sHK"/>
                                     <constraint firstAttribute="width" secondItem="I0p-Vc-KgJ" secondAttribute="height" id="QUK-ew-h2f"/>
@@ -87,11 +87,11 @@
                             <constraint firstItem="CfF-dS-emV" firstAttribute="centerX" secondItem="SRN-ff-Xk6" secondAttribute="centerX" id="9l2-cQ-0zR"/>
                             <constraint firstItem="cJf-A2-poE" firstAttribute="centerY" secondItem="I0p-Vc-KgJ" secondAttribute="centerY" id="CBL-Ke-2K0"/>
                             <constraint firstAttribute="trailing" secondItem="Q66-Bb-53V" secondAttribute="trailing" constant="8" id="PC7-sI-UFC"/>
-                            <constraint firstItem="pMG-aj-iaW" firstAttribute="top" secondItem="I0p-Vc-KgJ" secondAttribute="bottom" constant="10" id="cHd-3R-Nuq"/>
+                            <constraint firstItem="ND9-Cx-ZuI" firstAttribute="bottom" secondItem="I0p-Vc-KgJ" secondAttribute="bottom" constant="10" id="cHd-3R-Nuq"/>
                             <constraint firstItem="pMG-aj-iaW" firstAttribute="top" secondItem="CfF-dS-emV" secondAttribute="bottom" id="e7V-x4-irc"/>
-                            <constraint firstItem="jpg-tO-qwt" firstAttribute="top" secondItem="KdW-WW-wAe" secondAttribute="bottom" constant="8" id="eHU-Ur-yyR"/>
+                            <constraint firstItem="jpg-tO-qwt" firstAttribute="top" secondItem="ND9-Cx-ZuI" secondAttribute="top" constant="8" id="eHU-Ur-yyR"/>
                             <constraint firstItem="I0p-Vc-KgJ" firstAttribute="centerX" secondItem="SRN-ff-Xk6" secondAttribute="centerX" id="f66-kH-m1O"/>
-                            <constraint firstItem="Q66-Bb-53V" firstAttribute="top" secondItem="KdW-WW-wAe" secondAttribute="bottom" constant="8" id="jMT-Jp-bFm"/>
+                            <constraint firstItem="Q66-Bb-53V" firstAttribute="top" secondItem="ND9-Cx-ZuI" secondAttribute="top" constant="8" id="jMT-Jp-bFm"/>
                             <constraint firstAttribute="trailing" secondItem="CfF-dS-emV" secondAttribute="trailing" id="lfL-be-5an"/>
                             <constraint firstItem="CfF-dS-emV" firstAttribute="top" secondItem="KdW-WW-wAe" secondAttribute="bottom" id="sgT-m1-Nrq"/>
                             <constraint firstItem="cJf-A2-poE" firstAttribute="leading" secondItem="jpg-tO-qwt" secondAttribute="leading" id="v16-Ud-7nq"/>
@@ -104,9 +104,7 @@
                     <connections>
                         <outlet property="btnTorch" destination="cJf-A2-poE" id="ppK-i0-QUK"/>
                         <outlet property="viewCamera" destination="CfF-dS-emV" id="ewa-i0-Wxn"/>
-                        <segue destination="mrx-VF-mMt" kind="show" identifier="FPLImagePreviewController" id="UPs-MI-9Wv">
-                            <nil key="action"/>
-                        </segue>
+                        <segue destination="mrx-VF-mMt" kind="show" identifier="ZHImagePreviewController" id="UPs-MI-9Wv"/>
                     </connections>
                 </viewController>
                 <tapGestureRecognizer id="B5k-1C-fBI">
@@ -153,13 +151,12 @@
                                 <state key="normal" image="CamDone"/>
                                 <connections>
                                     <action selector="finishedTouchedUpInside:" destination="mrx-VF-mMt" eventType="touchUpInside" id="4y7-W9-nDC"/>
-                                    <action selector="useFlashButtonTouchedUpInside:" destination="cwh-9K-zAR" eventType="touchUpInside" id="gxj-hy-KNI"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Nxh-Bo-NIM" firstAttribute="top" secondItem="p2N-N2-LCR" secondAttribute="bottom" constant="20" id="339-6f-awb"/>
+                            <constraint firstItem="IoN-pv-XBy" firstAttribute="bottom" secondItem="p2N-N2-LCR" secondAttribute="bottom" constant="20" id="339-6f-awb"/>
                             <constraint firstItem="IoN-pv-XBy" firstAttribute="trailing" secondItem="p2N-N2-LCR" secondAttribute="trailing" constant="16" id="DQ5-03-X7g"/>
                             <constraint firstItem="p2N-N2-LCR" firstAttribute="width" secondItem="p2N-N2-LCR" secondAttribute="height" id="G5b-Ge-2k6"/>
                             <constraint firstItem="Oi8-iB-oj7" firstAttribute="centerY" secondItem="kn3-vv-nXO" secondAttribute="centerY" id="GKa-ZJ-2rQ"/>

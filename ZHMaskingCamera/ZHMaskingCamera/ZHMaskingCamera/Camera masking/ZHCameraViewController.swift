@@ -19,7 +19,6 @@ import AVFoundation
     public weak var delegate : ZHCameraViewDelegate?
     private var _maskingImage : UIImage!
     var maskingImage : UIImage{
-        
         get{
             return _maskingImage
         }
@@ -37,6 +36,7 @@ import AVFoundation
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.maskingImage = #imageLiteral(resourceName: "Xbox360Mask.png")
         setupView()
         
     }
@@ -164,7 +164,7 @@ import AVFoundation
     }
     
     func captureAndCropp() {
-        self.cManager.getImage(croppWith: self.rectLayer.frame) {
+        self.cManager.getImage(croppWith: self.rectLayer.frame) { [unowned self]
             (croppedImage, error) -> Void in
             OperationQueue.main.addOperation({
                 if croppedImage != nil {

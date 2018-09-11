@@ -40,6 +40,7 @@ public class ZHUtility {
         layer.mask = mask
         layer.masksToBounds = true
     }
+    
     class func resizeImage(image: UIImage, targetSize: CGSize) -> UIImage {
         let size = image.size
         

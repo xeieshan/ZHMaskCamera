@@ -9,23 +9,22 @@
 /* Begin PBXBuildFile section */
 		9537499D1FD50D660009397F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9537499C1FD50D660009397F /* AppDelegate.swift */; };
 		9537499F1FD50D660009397F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9537499E1FD50D660009397F /* ViewController.swift */; };
-		953749A21FD50D660009397F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953749A01FD50D660009397F /* Main.storyboard */; };
 		953749A41FD50D660009397F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 953749A31FD50D660009397F /* Assets.xcassets */; };
 		953749A71FD50D660009397F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953749A51FD50D660009397F /* LaunchScreen.storyboard */; };
 		953749B41FD50D7E0009397F /* ZHCameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953749AF1FD50D7E0009397F /* ZHCameraManager.swift */; };
 		953749B51FD50D7E0009397F /* ZHCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953749B01FD50D7E0009397F /* ZHCameraViewController.swift */; };
 		953749B61FD50D7E0009397F /* ZHConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953749B11FD50D7E0009397F /* ZHConstants.swift */; };
-		953749B71FD50D7E0009397F /* ZHImagePreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953749B21FD50D7E0009397F /* ZHImagePreviewController.swift */; };
 		953749B81FD50D7E0009397F /* ZHUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953749B31FD50D7E0009397F /* ZHUtility.swift */; };
 		953749BA1FD50FE60009397F /* MaskingCamera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953749B91FD50FE50009397F /* MaskingCamera.storyboard */; };
 		953749BC1FD510330009397F /* Xbox360Mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 953749BB1FD510330009397F /* Xbox360Mask.png */; };
+		95B03CE32147B27600A4A83A /* ZHImagePreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953749B21FD50D7E0009397F /* ZHImagePreviewController.swift */; };
+		95B03CE52147B41500A4A83A /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B03CE42147B41400A4A83A /* Logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		953749991FD50D660009397F /* ZHMaskingCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHMaskingCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9537499C1FD50D660009397F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9537499E1FD50D660009397F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		953749A11FD50D660009397F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		953749A31FD50D660009397F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		953749A61FD50D660009397F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		953749A81FD50D660009397F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,6 +35,7 @@
 		953749B31FD50D7E0009397F /* ZHUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHUtility.swift; sourceTree = "<group>"; };
 		953749B91FD50FE50009397F /* MaskingCamera.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MaskingCamera.storyboard; sourceTree = "<group>"; };
 		953749BB1FD510330009397F /* Xbox360Mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Xbox360Mask.png; sourceTree = "<group>"; };
+		95B03CE42147B41400A4A83A /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +71,8 @@
 				953749AE1FD50D7E0009397F /* Camera masking */,
 				9537499C1FD50D660009397F /* AppDelegate.swift */,
 				9537499E1FD50D660009397F /* ViewController.swift */,
-				953749A01FD50D660009397F /* Main.storyboard */,
 				953749B91FD50FE50009397F /* MaskingCamera.storyboard */,
+				95B03CE42147B41400A4A83A /* Logo.png */,
 				953749A31FD50D660009397F /* Assets.xcassets */,
 				953749BB1FD510330009397F /* Xbox360Mask.png */,
 				953749A51FD50D660009397F /* LaunchScreen.storyboard */,
@@ -154,8 +154,8 @@
 			files = (
 				953749A71FD50D660009397F /* LaunchScreen.storyboard in Resources */,
 				953749BA1FD50FE60009397F /* MaskingCamera.storyboard in Resources */,
+				95B03CE52147B41500A4A83A /* Logo.png in Resources */,
 				953749A41FD50D660009397F /* Assets.xcassets in Resources */,
-				953749A21FD50D660009397F /* Main.storyboard in Resources */,
 				953749BC1FD510330009397F /* Xbox360Mask.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,26 +168,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				953749B41FD50D7E0009397F /* ZHCameraManager.swift in Sources */,
-				953749B71FD50D7E0009397F /* ZHImagePreviewController.swift in Sources */,
 				953749B61FD50D7E0009397F /* ZHConstants.swift in Sources */,
 				9537499F1FD50D660009397F /* ViewController.swift in Sources */,
 				953749B51FD50D7E0009397F /* ZHCameraViewController.swift in Sources */,
 				9537499D1FD50D660009397F /* AppDelegate.swift in Sources */,
 				953749B81FD50D7E0009397F /* ZHUtility.swift in Sources */,
+				95B03CE32147B27600A4A83A /* ZHImagePreviewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		953749A01FD50D660009397F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				953749A11FD50D660009397F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		953749A51FD50D660009397F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -312,11 +304,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5ADGSJD23G;
+				DEVELOPMENT_TEAM = 4N4W874C3C;
 				INFOPLIST_FILE = ZHMaskingCamera/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.test.app.-";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -331,11 +323,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5ADGSJD23G;
+				DEVELOPMENT_TEAM = 4N4W874C3C;
 				INFOPLIST_FILE = ZHMaskingCamera/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.test.app.-";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
