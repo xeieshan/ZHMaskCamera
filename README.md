@@ -15,13 +15,18 @@ override func viewDidLoad() {
 ```
 
 ## Screenshots
+### Splash screen
 ![Splash screen](https://github.com/xeieshan/ZHMaskCamera/blob/master/ZHMaskingCamera/ZHMaskingCamera/Screenshots/SplashScreen.PNG)
 
+### Camera layer
 ![Camera](https://github.com/xeieshan/ZHMaskCamera/blob/master/ZHMaskingCamera/ZHMaskingCamera/Screenshots/Camera.PNG)
 
+### While capturing try to center the object in mask
 ![Capturing](https://github.com/xeieshan/ZHMaskCamera/blob/master/ZHMaskingCamera/ZHMaskingCamera/Screenshots/Capturing.PNG)
 
+### Masked image after capturing
 ![Masked after capturing](https://github.com/xeieshan/ZHMaskCamera/blob/master/ZHMaskingCamera/ZHMaskingCamera/Screenshots/CapturedMasked.PNG)
 
+`Feel free to use`
 
 
